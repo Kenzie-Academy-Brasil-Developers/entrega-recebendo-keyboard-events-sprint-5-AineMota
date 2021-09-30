@@ -6,7 +6,7 @@ body{
     height: 100px;
     position: absolute; 
     background-image: url('../pictures/pacman.gif');
-    background-size: contain;
+    background-size: cover;
     left: 200px; 
     top: 200px; 
 }
