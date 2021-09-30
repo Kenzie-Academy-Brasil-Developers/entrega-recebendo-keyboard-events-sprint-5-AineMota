@@ -5,7 +5,6 @@ body{
     width: 100px; 
     height: 100px;
     position: absolute; 
-
     background-image: url('./pictures/pacman.gif');
     background-size: contain;
 

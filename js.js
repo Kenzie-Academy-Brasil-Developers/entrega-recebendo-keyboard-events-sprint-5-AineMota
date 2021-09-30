@@ -1,11 +1,11 @@
 
-  let boxTop = 200;
-  let boxLeft = 200;
+  let boxTop = 0;
+  let boxLeft = 0;
 
 
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
-
+console.log(keyName)
     if(keyName === 'ArrowDown'){
         boxTop += 10;
     }
@@ -18,6 +18,6 @@ document.addEventListener('keydown', (event) => {
     if(keyName === 'ArrowRight'){
          boxLeft += 10;
     }
-    document.getElementById("box").style.top = boxTop + "px";
-    return document.getElementById("box").style.left = boxLeft + "px";
+    document.getElementsByClassName("S").style.top = boxTop + "px";
+    return document.getElementsByClassName("S").style.left = boxLeft + "px";
   });
